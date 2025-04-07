@@ -45,7 +45,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "postinstall": "husky install",
+    "prepare": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
     "build": "bob build",
